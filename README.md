@@ -98,3 +98,14 @@ Selected Best Model Based on Cross-Validation Mean Score
         Why: Higher mean score indicates better overall model performance.
 
         Function: Final model is chosen to predict fraud on x_test using best cross-validation results.
+finally selecting model c -> Random forest Classifer where sampling used oversampling,
+obtained following:
+                       
+        accuracy:0.9994733330992591
+        precision:0.8469387755102041
+        recall:0.8469387755102041
+        f1 score:0.8469387755102041
+
+        confusion matrix
+        [[56849    15]
+         [   15    83]]
